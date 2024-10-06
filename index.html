@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Search for Pokemon</h1>
+        <p1>Search for any Pokemon and it'll give you the Pokemon details.</p1>
+    </div>
+    <div id="search">
+        <input id="searchPokemon" type="text" placeholder="Give me your Pokemon">
+        <input type="submit" value="Submit" onclick="
+        fetchPokemon()
+        ">
+    </div>
+    <div id="pokemonDetails">
+        <table>
+            <thead>
+                <tr>
+                    <th id="pokemonName"></th>
+                </tr>
+            </thead>
+            <tbody id="imageTableBody">
+                <!-- Rows for images will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>

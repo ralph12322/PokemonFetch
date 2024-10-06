@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    gap: 75px;
+    background-color: #e6f2ff;
+}
+h1{
+    margin-left: 70px;
+}
+.header {
+    
+}
+
+.search{
+    display: flex; 
+    margin-left: 75px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.pokemonDetails{
+    display: flex; 
+    margin-left: 75px;
+    align-items: center; 
+    justify-content: center;
+}
